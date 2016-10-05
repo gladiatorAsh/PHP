@@ -424,40 +424,6 @@
                 $view->render('index.phtml');
                 
             ?> 
-<!-- 
-<?php
-   include_once('MyView.php');
-   $t = new MyView();
-   $dbhost = 'localhost:3306';
-   $dbuser = 'root';
-   $dbpass = 'admin';
-   
-   $conn = mysql_connect($dbhost, $dbuser, $dbpass);
-   
-   if(! $conn ) {
-      die('Could not connect: ' . mysql_error());
-   }
-   
-   $sql = 'SELECT * from expenses';
-   mysql_select_db('cmpe273');
-   $retval = mysql_query( $sql, $conn );
-   
-   if(! $retval ) {
-      die('Could not get data: ' . mysql_error());
-   }
-   
-   while($row = mysql_fetch_array($retval, MYSQL_ASSOC)) {
-      echo "EMP ID :{$row['id']}  <br> ".
-         "EMP NAME : {$row['name']} <br> ".
-         
-         "--------------------------------<br>";
-   }
-   
-   
-   
-   mysql_close($conn);
-?>
--->
             </div>
         </div>
     </section>
