@@ -406,8 +406,38 @@
     <section id="news">
         <div class="container">
             <div class="row">
+<div class="row">
+        <div class="col-lg-4">
+          <h2>New office in Boston</h2>
+          <p class="text-danger">We have bought a new office in the heart of Boston to better serve our customer needs</p>
+          <p> 352R Blue Hill Ave Apt # 3 Boston MA 02201 </p>
+          
+        </div>
+        <div class="col-lg-4">
+          <h2>Award for the CEO</h2>
+          <p>Our CEO Ashutosh Singh has just been awarded 1st position in the the TIMES Best 50 under 25 entrepreneurs. <i class="fa fa-glass"></i></p>
+       </div>
+        <div class="col-lg-4">
+          <h2>Currently Hiring</h2>
+          <p>We <i class="fa fa-heart"></i> great developers and are on the lookout. If you like a challenge contact us.</p>
+          <p>Drop a mail to us (below section) with subject as Job along with your resume.</a></p>
+        </div>
+      </div>
+            </div>
+        </div>
+    </section>
 
-            <?php
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                        <?php
                 include_once('MyView.php');
                 $view = new MyView();
                 $str="";
@@ -424,18 +454,7 @@
                 $view->render('index.phtml');
                 
             ?> 
-            </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
