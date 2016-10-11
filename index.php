@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿<!--
+# Reference : [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
+Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
+-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -437,7 +441,7 @@
                 </div>
             </div>
             <div class="row">
-                        <?php
+                <?php
                 include_once('MyView.php');
                 $view = new MyView();
                 $str="";
