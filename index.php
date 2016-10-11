@@ -21,6 +21,7 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -345,7 +346,7 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle img-team" alt="">
                         <h4>Ashutosh Singh</h4>
                         <p class="text-muted">Team Lead</p>
                         <ul class="list-inline social-buttons">
@@ -363,7 +364,7 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle img-team" alt="">
                         <h4>Ashutosh Singh</h4>
                         <p class="text-muted">Lead Designer</p>
                         <ul class="list-inline social-buttons">
@@ -381,7 +382,7 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle img-team" alt="">
                         <h4>Mr. Bean</h4>
                         <p class="text-muted">Lead Developer</p>
                         <ul class="list-inline social-buttons">
