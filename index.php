@@ -67,6 +67,9 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="login.php">Login</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

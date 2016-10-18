@@ -1,0 +1,3 @@
+<files "pwd.txt"> 
+deny from all 
+</files>
