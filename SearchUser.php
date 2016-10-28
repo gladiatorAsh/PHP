@@ -77,36 +77,80 @@
     </div>
     <!-- /.container-fluid -->
   </nav>
-  <section id="about">
+
+  <section>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Employee Login</h2>
-          <h3 class="section-subheading text-muted">Please enter details below</h3>
-        </div>
-      </div>
 
-      <form class="form" action="access.php" role="form" method="post">
 
-        <!--<input type="text" name="something" value="<?= ($_POST['email']) ?>" />-->
-        <div class="form-group">
-          <label for="username1">Username</label>
-          <input type="text" class="form-control" id="username1" name="username1" placeholder="Enter username" autofocus>
-        </div>
-        <div class="form-group">
-          <label for="password1">Password</label>
-          <input type="password" class="form-control" id="password1" name="password1" placeholder="Enter password">
-        </div>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input type="checkbox" class="form-check-input"> Remember me
-          </label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+      <form action="" method="post">
+        <p>
+          Search :
+          <input type="text" name="searchTerm" />
+          <input type="submit" name="btnSubmit" value="Submit" />
+        </p>
+
+        <?php
+    
+    if(isset($_POST['btnSubmit'])){ //check if form was submitted
+        $input = $_POST['searchTerm']; //get input text
+        echo "You entered: ".$input;
+        
+        
+        $db_host = 'localhost';
+        $db_port=5433;
+        $db_username = 'postgres';
+        $db_password = 'admin';
+        $db_name = 'CMPE272';
+        /*
+        $link = mysql_connect( $db_host, $db_username, $db_password) or die(mysql_error());
+        */
+
+        
+    $link= pg_connect("host=$db_host port=$db_port dbname=$db_name user=$db_username password=$db_password")
+    or die('Could not connect: ' . pg_last_error());
+    
+
+      //  mysql_select_db($db_name);
+        $searchquery="SELECT * FROM users WHERE '$input' in (firstname, lastname, email,homephone,cellphone);";
+        $sqlsearch = pg_query($searchquery);
+        $resultcount = pg_numrows($sqlsearch);
+        
+        if (!$sqlsearch) {
+            die('Could not query:' . pg_last_error());
+        }
+        
+        printf("<p>Your search returned %s result(s) : </p>",$resultcount);
+        
+        echo "<table>";
+                
+        while ($row = pg_fetch_array($sqlsearch,null, MYSQL_ASSOC)) {
+            
+            
+            echo "<tr>";
+            printf("<td class='extrapadding'><b> Name: </b> %s <b> Email: </b> %s  <b>Cellphone:</b> %s <b>Homephone:</b> %s </td>", $row["firstname"]." ".$row["lastname"],$row["email"],$row["cellphone"],$row["homephone"]);
+            echo "</tr>";
+            echo "<tr>";
+            printf("<td class='extrapadding'><b>Address:</b> %s</td>", $row["homeaddress"]);
+            
+            echo "</tr>";
+            
+        }
+        
+        echo "</table>";
+        
+        pg_free_result($sqlsearch);
+        
+        pg_close($link);
+        
+    }
+    
+    
+    ?>
 
       </form>
     </div>
   </section>
+
 
 </body>
 

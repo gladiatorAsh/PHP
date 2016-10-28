@@ -79,34 +79,47 @@
   </nav>
   <section id="about">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Employee Login</h2>
-          <h3 class="section-subheading text-muted">Please enter details below</h3>
-        </div>
-      </div>
 
-      <form class="form" action="access.php" role="form" method="post">
-
-        <!--<input type="text" name="something" value="<?= ($_POST['email']) ?>" />-->
+      <form action="createusers.php" method="post">
         <div class="form-group">
-          <label for="username1">Username</label>
-          <input type="text" class="form-control" id="username1" name="username1" placeholder="Enter username" autofocus>
+          <p id="Intro">Create User</p>
+          <small id="IntroHelp" class="form-text text-muted">Please fill the form below</small>
         </div>
         <div class="form-group">
-          <label for="password1">Password</label>
-          <input type="password" class="form-control" id="password1" name="password1" placeholder="Enter password">
+          <label for="fname">First Name</label>
+          <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name">
         </div>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input type="checkbox" class="form-check-input"> Remember me
-          </label>
+        <div class="form-group">
+          <label for="lname">Last Name</label>
+          <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name">
         </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label for="address">Address</label>
+          <textarea class="form-control" id="address" name="address" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="homephone">Home Phone</label>
+          <input type="tel" class="form-control" id="homephone" name="homephone" placeholder="Home Phone">
+        </div>
+        <div class="form-group">
+          <label for="cellphone">Cell Phone</label>
+          <input type="tel" class="form-control" id="cellphone" name="cellphone" placeholder="Cell Phone">
+        </div>
+
         <button type="submit" class="btn btn-primary">Submit</button>
-
       </form>
     </div>
   </section>
+
 
 </body>
 
