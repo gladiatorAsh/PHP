@@ -96,11 +96,11 @@
         echo "You entered: ".$input;
         
         
-        $db_host = 'localhost';
-        $db_port=5433;
-        $db_username = 'postgres';
-        $db_password = 'admin';
-        $db_name = 'CMPE272';
+        $db_host = 'ec2-54-235-76-139.compute-1.amazonaws.com';
+        $db_port=5432;
+        $db_username = 'jrpjshwnodylga';
+        $db_password = 'uc9RYJi6HubC8h03v2VsIrsBUM';
+        $db_name = 'd6s4nh527enkjs';
         /*
         $link = mysql_connect( $db_host, $db_username, $db_password) or die(mysql_error());
         */
@@ -143,8 +143,7 @@
         pg_close($link);
         
     }
-    
-    
+        
     ?>
 
       </form>

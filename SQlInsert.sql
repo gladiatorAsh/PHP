@@ -1,12 +1,12 @@
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Ashutosh',
@@ -18,15 +18,15 @@ NULL,
 919757175383
 );
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Avinash',
@@ -40,15 +40,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Ashutosh',
@@ -62,15 +62,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Billo',
@@ -84,15 +84,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Janice',
@@ -106,15 +106,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Ruchi',
@@ -128,15 +128,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'January',
@@ -150,15 +150,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Pikachi',
@@ -171,15 +171,15 @@ NULL,
 );
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Avinash',
@@ -192,15 +192,15 @@ VALUES
 );
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Zulu',
@@ -214,15 +214,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Trehaan',
@@ -236,15 +236,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Odhesh',
@@ -258,15 +258,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Janardhan',
@@ -280,15 +280,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Joseph',
@@ -303,15 +303,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Anthony',
@@ -325,15 +325,15 @@ VALUES
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Zanny',
@@ -347,15 +347,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Raksha',
@@ -369,15 +369,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Avinash',
@@ -391,15 +391,15 @@ VALUES
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Vasudha',
@@ -413,15 +413,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Rani',
@@ -435,15 +435,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Isha',
@@ -458,15 +458,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Uttara',
@@ -480,15 +480,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Lilavati',
@@ -502,15 +502,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Puli',
@@ -525,15 +525,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Jaya',
@@ -547,15 +547,15 @@ VALUES
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Michael',
@@ -569,15 +569,15 @@ VALUES
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Baldev',
@@ -591,15 +591,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Kalidasa',
@@ -614,15 +614,15 @@ NULL,
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Gopinath',
@@ -635,15 +635,15 @@ NULL,
 );
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Prabhakara',
@@ -657,15 +657,15 @@ VALUES
 
 
 
-INSERT INTO `cmpe273`.`users`
+INSERT INTO cmpe273.users
 (
-`firstname`,
-`lastname`,
-`email`,
-`password`,
-`homeaddress`,
-`homephone`,
-`cellphone`)
+firstname,
+lastname,
+email,
+password,
+homeaddress,
+homephone,
+cellphone)
 VALUES
 (
 'Duleep',

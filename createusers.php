@@ -92,17 +92,13 @@
         return $data;
     }
     
-    /*
-    $db_host = 'localhost:3306';
-    $db_username = 'root';
-    $db_password = 'admin';
-    $db_name = 'CMPE273';
-  $link=  mysql_connect( $db_host, $db_username, $db_password) or die(mysql_error());
-    mysql_select_db($db_name);
-  
-    */
+        $db_host = 'ec2-54-235-76-139.compute-1.amazonaws.com';
+        $db_port=5432;
+        $db_username = 'jrpjshwnodylga';
+        $db_password = 'uc9RYJi6HubC8h03v2VsIrsBUM';
+        $db_name = 'd6s4nh527enkjs';
 
-    $link= pg_connect("host=localhost:5433 dbname=CMPE272 user=postgres password=admin")
+    $link= pg_connect("host=$db_host port=$db_port dbname=$db_name user=$db_username password=$db_password")
     or die('Could not connect: ' . pg_last_error());
     
     
