@@ -121,22 +121,22 @@
         
         printf("<p>Your search returned %s result(s) : </p>",$resultcount);
         
-        echo "<table>";
+        printf("<table>");
                 
         while ($row = pg_fetch_array($sqlsearch,null, MYSQL_ASSOC)) {
             
             
-            echo "<tr>";
+            printf("<tr>");
             printf("<td class='extrapadding'><b> Name: </b> %s <b> Email: </b> %s  <b>Cellphone:</b> %s <b>Homephone:</b> %s </td>", $row["firstname"]." ".$row["lastname"],$row["email"],$row["cellphone"],$row["homephone"]);
-            echo "</tr>";
-            echo "<tr>";
+            printf("</tr>");
+            printf("<tr>");
             printf("<td class='extrapadding'><b>Address:</b> %s</td>", $row["homeaddress"]);
             
-            echo "</tr>";
+            printf("</tr>");
             
         }
         
-        echo "</table>";
+        printf("</table>");
         
         pg_free_result($sqlsearch);
         
