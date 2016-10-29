@@ -113,17 +113,17 @@
       //  mysql_select_db($db_name);
         $searchquery="SELECT * FROM users WHERE '$input' in (firstname, lastname, email,homephone,cellphone);";
         $sqlsearch = pg_query($searchquery);
-        //$resultcount = pg_numrows($sqlsearch);
+        $resultcount = pg_numrows($sqlsearch);
         
         if (!$sqlsearch) {
             die('Could not query:' . pg_last_error());
         }
         
-        //printf("<p>Your search returned %s result(s) : </p>",$resultcount);
+        printf("<p>Your search returned %s result(s) : </p>",$resultcount);
         
         printf("<table>");
                 
-        while ($row = pg_fetch_array($sqlsearch,null, MYSQL_ASSOC)) {
+        while ($row = pg_fetch_array($sqlsearch,null, PGSQL_ASSOC)) {
             
             
             printf("<tr>");
