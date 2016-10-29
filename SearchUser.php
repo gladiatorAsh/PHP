@@ -140,7 +140,7 @@
         
         pg_free_result($sqlsearch);
         
-        pg_close($link);
+        //pg_close($link);
         
     }
         
