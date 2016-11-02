@@ -1,4 +1,4 @@
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -18,7 +18,7 @@ NULL,
 919757175383
 );
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -40,7 +40,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -62,7 +62,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -84,7 +84,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -106,7 +106,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -128,7 +128,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -150,7 +150,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -171,7 +171,7 @@ NULL,
 );
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -192,7 +192,7 @@ VALUES
 );
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -214,7 +214,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -236,7 +236,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -258,7 +258,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -280,7 +280,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -303,7 +303,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -325,7 +325,7 @@ VALUES
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -347,7 +347,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -369,7 +369,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -391,7 +391,7 @@ VALUES
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -413,7 +413,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -435,7 +435,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -458,7 +458,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -480,7 +480,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -502,7 +502,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -525,7 +525,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -547,7 +547,7 @@ VALUES
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -569,7 +569,7 @@ VALUES
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -591,7 +591,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -614,7 +614,7 @@ NULL,
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -635,7 +635,7 @@ NULL,
 );
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,
@@ -657,7 +657,7 @@ VALUES
 
 
 
-INSERT INTO cmpe273.users
+INSERT INTO users
 (
 firstname,
 lastname,

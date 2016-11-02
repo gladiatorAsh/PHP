@@ -75,6 +75,7 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
           <li>
             <a class="" href="user.html">User Section</a>
           </li>
+
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -85,6 +86,13 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
   <header>
     <section id="home">
       <div class="container">
+
+        <div class="col-lg-12 text-center">
+          <h3><a href="customwebsites.php">Click to know more about our products</a></h3>
+          <h3><a class="" href="lastvisited.php">View last visited services</a</h3>
+          <h3><a class="" href="mostvisited.php">View most visited services</a</h3>
+        </div>
+
         <div class="intro-text">
           <div class="intro-lead-in">Welcome To Our Studio!</div>
           <div class="intro-heading">It's Nice To Meet You</div>
@@ -96,10 +104,14 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
   <!-- Services Section -->
   <section id="services">
     <div class="container">
+
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading">Services</h2>
           <h3 class="section-subheading text-muted">Current offerings </h3>
+          <h3><a href="customwebsites.php">Click to know more</a></h3>
+          <h3><a class="" href="lastvisited.php">View last visited services</a</h3>
+          <h3><a class="" href="mostvisited.php">View most visited services</a</h3>
         </div>
       </div>
       <div class="row text-center">
@@ -128,7 +140,11 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
           <p class="text-muted">We take great pride in testing the security of applications developed by us.</p>
         </div>
       </div>
+
     </div>
+
+
+
   </section>
   <!-- Portfolio Grid Section -->
   <section id="portfolio" class="bg-light-gray">

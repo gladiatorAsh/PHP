@@ -1,5 +1,5 @@
 CREATE TABLE users (
-  id integer SERIAL,
+  id SERIAL,
   firstname varchar(255) NOT NULL,
   lastname varchar(255) DEFAULT NULL,
   email varchar(100) NOT NULL,
