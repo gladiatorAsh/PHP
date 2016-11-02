@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Website">
   <meta name="author" content="Ashutosh Singh">
-  <title>Code Warriors Login</title>
+  <title>Last Visited</title>
   <!-- Bootstrap Core CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom Fonts -->
@@ -93,12 +93,12 @@
       <div class="row tpmg45">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading">Last visited services </h2>
-          <h3 class="section-subheading text-muted">Below list shows the last five visted services on this website </h3>
+          <h3 class="section-subheading text-muted">Below list shows the last 5 visited services on this website by you</h3>
         </div>
       </div>
 
       <div class="row">
-        <table class="table">
+        <table class="table table-bordered table-striped table-hover">
           <?php
     $url =  unserialize($_COOKIE['history']);
     // foreach ($url as $key => $value) {
