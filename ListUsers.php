@@ -41,6 +41,7 @@
 
     $result=get_data($url);
     $rows=json_decode($result);
+    echo "<b> Ashutosh's Users </b>";
     echo "<table class='table table-bordered table-striped table-hover'>";
     echo "<thead><tr><th>#</th><th>Name</th><th>Email</th></tr></thead>";
     echo "<tbody>";      
@@ -56,6 +57,7 @@
         //Shruti
     $result=get_data($ShrutiUrl);
     $rows=json_decode($result);
+    echo "<b> Shruti's Users </b>";
     echo "<table class='table table-bordered table-striped table-hover'>";
     echo "<thead><tr><th>#</th><th>Name</th><th>Email</th></tr></thead>";
     echo "<tbody>";      
@@ -72,6 +74,7 @@
 //hiral
     $result=get_data($HiralUrl);
     $rows=json_decode($result);
+    echo "<b> Hiral's Users </b>";
     echo "<table class='table table-bordered table-striped table-hover'>";
     echo "<thead><tr><th>#</th><th>Name</th><th>Email</th></tr></thead>";
     echo "<tbody>";      
