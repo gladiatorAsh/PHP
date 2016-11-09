@@ -35,7 +35,7 @@
 	return $data;
 }
 
-   $url = "https://codewarriors.herokuapp.com/allusers.php";
+   $url = "http://codewarriors.herokuapp.com/allusers.php";
 
     $result=get_data($url);
     $rows=json_decode($result);
