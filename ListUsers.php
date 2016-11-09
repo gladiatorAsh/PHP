@@ -36,7 +36,7 @@
 }
 
    $url = "http://codewarriors.herokuapp.com/AllUsers.php";
-   $ShrutiUrl = "https://smedia.herokuapp.com/services/all_users.php";
+   $ShrutiUrl = "http://smedia.herokuapp.com/services/all_users.php";
    $HiralUrl = "http://hiralparikh.000webhostapp.com/curl_db_interaction.php";
 
     $result=get_data($url);
@@ -68,6 +68,21 @@
         echo("</tbody>");
         echo ("</table>");    
 
+
+//hiral
+    $result=get_data($HiralUrl);
+    $rows=json_decode($result);
+    echo "<table class='table table-bordered table-striped table-hover'>";
+    echo "<thead><tr><th>#</th><th>Name</th><th>Email</th></tr></thead>";
+    echo "<tbody>";      
+    for($i=0;$i<count($rows);$i++){
+            
+            printf("<tr>");
+            printf("<td>%s</td><td class='extrapadding'> %s</td><td> %s </td>", $i+1,$rows[$i][0]. " ".$rows[$i][1],$rows[$i][2]);
+            printf("</tr>");            
+        }
+        echo("</tbody>");
+        echo ("</table>");    
 
     ?>
     
