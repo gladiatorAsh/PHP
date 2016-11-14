@@ -1,7 +1,6 @@
 
         <?php
-    
-    
+        
         $db_host = 'ec2-54-235-76-139.compute-1.amazonaws.com';
         $db_port=5432;
         $db_username = 'jrpjshwnodylga';
@@ -10,12 +9,10 @@
         /*
         $link = mysql_connect( $db_host, $db_username, $db_password) or die(mysql_error());
         */
-
         
     $link= pg_connect("host=$db_host port=$db_port dbname=$db_name user=$db_username password=$db_password")
     or die('Could not connect: ' . pg_last_error());
     
-
       //  mysql_select_db($db_name);
         $searchquery="SELECT * FROM services;";
         $sqlsearch = pg_query($searchquery);
