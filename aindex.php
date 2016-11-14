@@ -1073,7 +1073,7 @@
                         <div class="small-12 columns">
                             <div class="featured-area">
                                 <div class="section-title">
-                                    <h2><span>Services</span></h2>
+                                    <h2><span>Code Warriors</span></h2>
                                 </div><!-- section title /-->
 
                                 <div class="content-section new-items-women">
@@ -1091,7 +1091,8 @@
                                     $url = "http://codewarriors.herokuapp.com/AllServices.php";
                                     $result=get_data($url);
                                     $rows=json_decode($result);
-                                    for($i=0;$i<count($rows);$i++){
+									//Fetch just the top 4 services
+                                    for($i=0;$i<4;$i++){
                                 printf('<div class="medium-3 small-12 columns product">');
                                     printf('<div class="product-image">');
                                     printf('<div class="sale-tag">Hot</div>');
@@ -1154,17 +1155,17 @@
         <!-- Suggested Stores -->
         <div class="row suggested-stores module">
             <div class="big-section-title">
-                <h2><span>Suggested Stores</span></h2>
+                <h2><span>Suggested Websites</span></h2>
             </div><!-- big Section title ends.-->
 
             <div class="stores-section">
 
                 <div class="medium-4 small-12 columns store">
                     <div class="thumbnail">
-                        <a href="http://www.webfulcreations.com/envato/webful_marketplace/html/index.html#">
+                        <a href="https://codewarriors.herokuapp.com">
                             <img alt="" src="./assets/store1.jpg">
                         </a>
-                        <h4><a href="http://www.webfulcreations.com/envato/webful_marketplace/html/index.html#">Fajar Accessories &amp; Fashion Store</a></h4>
+                        <h4><a href="https://codewarriors.herokuapp.com">Code Warriors - Custom Dev</a></h4>
                         <div class="store-reputation">
                             <div class="pro-rating float-left">
                                 <i class="fa fa-star"></i>
@@ -1175,19 +1176,19 @@
                             </div>
                             <span>230 reviews</span>
                         </div><!-- Store reputation /-->
-                        <p class="store-end"><i class="fa fa-map-marker" aria-hidden="true"></i> 25 Birmingham, USA</p>
+                        <p class="store-end"><i class="fa fa-map-marker" aria-hidden="true"></i> 25 Diridon Street, San Jose , USA</p>
 
                         <div class="products-container">
 
                             <div class="featured-product product">
                                 <div class="medium-5 small-5 columns">
-                                    <a href="http://www.webfulcreations.com/envato/webful_marketplace/html/index.html#">
-                                        <img src="./assets/product1-1.jpg" alt="">
+                                    <a href="http://codewarriors.herokuapp.com/consulting.php">
+                                        <img src="http://codewarriors.herokuapp.com/img/portfolio/treehouse.png" alt="">
                                     </a>
                                 </div>
 
                                 <div class="medium-7 small-7 columns product-detail">
-                                    <h6><a href="http://www.webfulcreations.com/envato/webful_marketplace/html/index.html#">Floral Lace Shift Dress</a></h6>
+                                    <h6><a href="http://codewarriors.herokuapp.com/consulting.php">Consulting</a></h6>
                                     <div class="top-product-review">
                                         <div class="star">
                                             <span class="on"><i class="fa fa-star"></i></span>
@@ -1197,20 +1198,20 @@
                                             <span class="off"><i class="fa fa-star"></i></span>
                                         </div>
                                     </div>
-                                    <div class="price">$50.00</div>
+                                    <div class="price">Custom</div>
                                 </div>
                                 <div class="clearfix"></div>
                             </div> <!-- Product Ends /-->
 
                             <div class="featured-product product no-border">
                                 <div class="medium-5 small-5 columns">
-                                    <a href="http://www.webfulcreations.com/envato/webful_marketplace/html/index.html#">
-                                        <img src="./assets/product2-1.jpg" alt="">
+                                    <a href="http://codewarriors.herokuapp.com/customwebsites.php">
+                                        <img src="http://codewarriors.herokuapp.com/images/seo.png" alt="">
                                     </a>
                                 </div>
 
                                 <div class="medium-7 small-7 columns product-detail">
-                                    <h6><a href="http://www.webfulcreations.com/envato/webful_marketplace/html/index.html#">Floral Lace Shift Dress</a></h6>
+                                    <h6><a href="http://codewarriors.herokuapp.com/customwebsites.php">Custom Development</a></h6>
                                     <div class="top-product-review">
                                         <div class="star">
                                             <span class="on"><i class="fa fa-star"></i></span>
@@ -1220,7 +1221,7 @@
                                             <span class="off"><i class="fa fa-star"></i></span>
                                         </div>
                                     </div>
-                                    <div class="price">$50.00</div>
+                                    <div class="price">Custom</div>
                                 </div>
                                 <div class="clearfix"></div>
                             </div> <!-- Product Ends /-->
