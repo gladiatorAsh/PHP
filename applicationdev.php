@@ -9,7 +9,7 @@
   <meta name="author" content="Ashutosh Singh">
   <title>Application development</title>
   <!-- Bootstrap Core CSS -->
-  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link href="css/bootstrap-rating.css" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom Fonts -->
@@ -144,10 +144,10 @@
         </div>
       </div>
   </section>
-<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
 
-<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/bootstrap-rating.min.js"></script>
 <script type="text/javascript" src="js/rating.js"></script>
 

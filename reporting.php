@@ -20,7 +20,7 @@
   <link href="css/agency.min.css" rel="stylesheet">
   <link href="css/login.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
-<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link href="css/bootstrap-rating.css" rel="stylesheet">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -134,10 +134,10 @@
       </div>
     </section>
 
-<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
 
-<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/bootstrap-rating.min.js"></script>
 <script type="text/javascript" src="js/rating.js"></script>
 
