@@ -1,0 +1,4 @@
+select total_ratings,no_ratings from services where url='customwebsites.php'; 
+select total_ratings,no_ratings from services where url='training.php'; 
+
+update services set total_ratings=0,no_ratings=0 where url='customwebsites.php'; 

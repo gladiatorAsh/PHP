@@ -8,6 +8,8 @@
   <meta name="description" content="Website">
   <meta name="author" content="Ashutosh Singh">
   <title>Training</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link href="css/bootstrap-rating.css" rel="stylesheet">
   <!-- Bootstrap Core CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom Fonts -->
@@ -117,48 +119,20 @@
             <p>
               Develop and refine the skills needed to successfully work with networks at a variety of levels, including design, implementation, and troubleshooting. Areas of expertise include data center, network security, networking, storage, and more.
             </p>
+            <input id="training.php" type="hidden" class="rating rate"  data-filled="fa fa-star fa-3x" data-empty="fa fa-star-o fa-3x" data-fractions="2"/>
           </div>
           <a href="webgamedev.php">Next >>>></a>
 
         </div>
-        <div class="row">
-          <div class="col-md-5 col-sm-6 portfolio-item">
-            <img src="images/systemadmin.jpg" class="img-responsive btpd50" alt="project1">
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <h4>System Administration</h4>
-            <p>
-              Build the expertise required to ensure services are delivered smoothly. Areas of expertise include desktop support, IT security, messaging/communications, office productivity, server administration, system administration, virtualization, and more.
-            </p>
-          </div>
-
-        </div>
-        <div class="row">
-          <div class="col-md-5 col-sm-6 portfolio-item">
-            <img src="images/development.jpg" class="img-responsive" alt="project1">
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <h4>Programming and Development</h4>
-            <p>
-              Learn the skills used to build dynamic databases, web sites, and programs. Areas of expertise include database administration, database development, programming, and web development.
-            </p>
-          </div>
-
-
-        </div>
-        <div class="row">
-          <div class="col-md-5 col-sm-6 portfolio-item">
-            <img src="images/devOps.png" class="img-responsive" alt="project1">
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <h4>DevOps</h4>
-            <p>
-              DevOps blends traditional development and systems/network operations to create more agile IT infrastructures. Areas of expertise include big data, cloud infrastructure, and configuration management.
-            </p>
-          </div>
-
+       
         </div>
     </section>
+<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-rating.min.js"></script>
+<script type="text/javascript" src="js/rating.js"></script>
 
 
 </body>

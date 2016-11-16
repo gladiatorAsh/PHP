@@ -20,6 +20,8 @@
   <link href="css/agency.min.css" rel="stylesheet">
   <link href="css/login.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link href="css/bootstrap-rating.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -123,14 +125,28 @@
               such as testers, may be employed only part-time.Salaries for these positions vary depending on both the experience and the location of the employee. An entry-level programmer can make, on average, around $70,000 annually and an experienced
               programmer can make, on average, around $125,000 annually.
             </p>
+            
+ <input id="pcgamedev.php" type="hidden" class="rating rate"  data-filled="fa fa-star fa-3x" data-empty="fa fa-star-o fa-3x" data-fractions="2"/>
+
           </div>
           <!--<a href="pcgamedev.php">Next >>>></a>-->
+            <div id="dialog-confirm" title="Confirm Rating?" style="display:none">
+           <p><span class="ui-icon ui-icon-alert" style="float:left; margin:12px 12px 20px 0;"></span>This rating will be saved.You will not be able to change it later. Are you sure?</p>
+      </div>
+
 
         </div>
 
       </div>
     </section>
 
+
+<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-rating.min.js"></script>
+<script type="text/javascript" src="js/rating.js"></script>
 
 </body>
 

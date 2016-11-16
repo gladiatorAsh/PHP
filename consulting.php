@@ -20,6 +20,9 @@
   <link href="css/agency.min.css" rel="stylesheet">
   <link href="css/login.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
+  
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link href="css/bootstrap-rating.css" rel="stylesheet">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -122,12 +125,26 @@
             <h4>Business Process Modelling</h4>
             <p>Our End-to-End Models ensures enabling of End-to-End Traceability Matrices. Models are entirely compliant with UML 2.5 Specifications.
             </p>
+            
+ <input id="consulting.php" type="hidden" class="rating rate"  data-filled="fa fa-star fa-3x" data-empty="fa fa-star-o fa-3x" data-fractions="2"/>
+
+
           </div>
           <a href="reporting.php">Next >>>></a>
+            <div id="dialog-confirm" title="Confirm Rating?" style="display:none">
+           <p><span class="ui-icon ui-icon-alert" style="float:left; margin:12px 12px 20px 0;"></span>This rating will be saved.You will not be able to change it later. Are you sure?</p>
+      </div>
 
         </div>
       </div>
   </section>
+
+<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-rating.min.js"></script>
+<script type="text/javascript" src="js/rating.js"></script>
 
 
 </body>
