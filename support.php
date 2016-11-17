@@ -131,6 +131,7 @@
     </section>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/bootstrap-rating.min.js"></script>
