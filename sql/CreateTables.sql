@@ -36,3 +36,9 @@ insert into services(id,url,title,subtitle,img,description) values(9,'training.p
 insert into services(id,url,title,subtitle,img,description) values(10,'webgamedev.php','WEB GAMES DEVELOPMENT','HTML5 rocks','http://codewarriors.herokuapp.com/images/html5.jpg','Develop and refine the skills needed to successfully work with networks at a variety of levels, including design, implementation, and troubleshooting. Areas of expertise include data center, network security, networking, storage, and more.');
 
 insert into services(id,url,title,subtitle,img,description) values(11,'pcgamedev.php','PC GAME DEVELOPMENT','Nothing is better than native','http://codewarriors.herokuapp.com/images/pcgame.jpg','Developers can range in size from small groups making casual games to housing hundreds of employees and producing several large titles. Companies divide their subtasks of games development. Individual job titles may vary; however, roles are the same within the industry.The development team consists of several members.Some members of the team may handle more than one role; similarly more than one task may be handled by the same member. Team size can vary from 20 to 100 or more members, depending on the games scope. The most represented are artists, followed by programmers, then designers, and finally, audio specialists, with two to three producers in management. These positions are employed full-time. Other positions, such as testers, may be employed only part-time.Salaries for these positions vary depending on both the experience and the location of the employee. An entry-level programmer can make, on average, around $70,000 annually and an experienced programmer can make, on average, around $125,000 annually.');
+
+
+select total_ratings,no_ratings from services ; 
+
+select total_ratings,COALESCE(total_ratings / NULLIF(no_ratings,0), 0) as avg_rating ,no_ratings from services order by COALESCE(total_ratings / NULLIF(no_ratings,0), 0) desc;
+

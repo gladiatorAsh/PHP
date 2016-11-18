@@ -110,7 +110,7 @@
     $items_count=count($url);
     $pos=0;
     //echo $items_count;
-    for($row=$items_count-1; $row>=$items_count-5;$row--){
+    for($row=$items_count-1; $row>$items_count-5;$row--){
       if($row>-1){
         $pos++;
         echo "<tr>" ;

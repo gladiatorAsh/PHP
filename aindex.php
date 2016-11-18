@@ -1091,9 +1091,10 @@
                                     return $data;
                                     }
 
-                                    $url = "http://codewarriors.herokuapp.com/AllServices.php";
+                                    $url = "http://codewarriors.herokuapp.com/services/TopServices.php";
                                     $result=get_data($url);
                                     $rows=json_decode($result);
+
 									//Fetch just the top 4 services
                                     for($i=0;$i<4;$i++){
                                 printf('<div class="medium-3 small-12 columns product">');
