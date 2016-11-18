@@ -1,6 +1,6 @@
 
 $(function () {
-    $( ".tabs-content" ).tabs();
+    $( ".tabs-content").tabs();
 
     var id = $('.rate').attr('id');
     var tempVal = getCookie("star", id);

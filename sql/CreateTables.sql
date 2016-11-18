@@ -40,5 +40,6 @@ insert into services(id,url,title,subtitle,img,description) values(11,'pcgamedev
 
 select total_ratings,no_ratings from services ; 
 
-select total_ratings,COALESCE(total_ratings / NULLIF(no_ratings,0), 0) as avg_rating ,no_ratings from services order by COALESCE(total_ratings / NULLIF(no_ratings,0), 0) desc;
+select COALESCE(total_ratings / NULLIF(no_ratings,0), 0) as avg_rating ,* from services order by COALESCE(total_ratings / NULLIF(no_ratings,0), 0) desc;
 
+select COALESCE(total_ratings / NULLIF(no_ratings,0), 0) as avg_rating ,* from services order by COALESCE(total_ratings / NULLIF(no_ratings,0), 0) desc LIMIT 4;

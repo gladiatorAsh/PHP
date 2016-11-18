@@ -86,7 +86,7 @@
                     <!-- Categories -->
                     <div class="top-bar-title float-right hide-for-large-only">
                         <span class="menu-icon light float-left" data-toggle="categories-dropdown" aria-controls="categories-dropdown" data-is-focus="false" data-yeti-box="categories-dropdown" aria-haspopup="true" aria-expanded="false"></span>
-                        <div class="dropdown-pane main-nav-container bottom right" id="categories-dropdown" data-dropdown="kst27n-dropdown" data-hover="true" data-hover-pane="true" aria-hidden="true" data-yeti-box="categories-dropdown" data-resize="categories-dropdown" aria-labelledby="khk5lc-dd-anchor" data-events="resize">
+                        <div class="dropdown-pane main-nav-container bottom right" id="categories-dropdown" data-dropdown="kst27n-dropdown" data-hover="true" data-hover-pane="true" aria-hidden="true" data-yeti-box="categories-dropdown" data-resize="categories-dropdown"  data-events="resize">
                             <!-- Categories -->
                             <div class="widget categories">
                                 <h2>Categories</h2>
@@ -237,7 +237,7 @@
                             <div class="clearfix"></div>
                         </div><!-- ends title /-->
                         <!-- Hidden Menus -->
-                        <div class="dropdown-pane" id="my-cart" data-dropdown="vhml5n-dropdown" data-hover="true" data-hover-pane="true" aria-hidden="true" data-yeti-box="my-cart" data-resize="my-cart" aria-labelledby="y39x3p-dd-anchor" style="top: 56.6667px; left: 0px;" data-events="resize">
+                        <div class="dropdown-pane" id="my-cart" data-dropdown="vhml5n-dropdown" data-hover="true" data-hover-pane="true" aria-hidden="true" data-yeti-box="my-cart" data-resize="my-cart"  style="top: 56.6667px; left: 0px;" data-events="resize">
                             <h5>Your Cart Detail</h5>
                             <table>
                                 <tbody>
@@ -282,7 +282,7 @@
                             <div class="clearfix"></div>
                         </div><!-- ends title /-->
                         <!-- Hidden Menus -->
-                        <div class="dropdown-pane" id="myaccount-dropdown" data-dropdown="yfj7hn-dropdown" data-hover="true" data-hover-pane="true" aria-hidden="true" data-yeti-box="myaccount-dropdown" data-resize="myaccount-dropdown" aria-labelledby="yktnua-dd-anchor" style="top: 56.6667px; left: 0px;" data-events="resize">
+                        <div class="dropdown-pane" id="myaccount-dropdown" data-dropdown="yfj7hn-dropdown" data-hover="true" data-hover-pane="true" aria-hidden="true" data-yeti-box="myaccount-dropdown" data-resize="myaccount-dropdown"  style="top: 56.6667px; left: 0px;" data-events="resize">
                             <ul class="menu vertical">
                                 <li><a href="http://www.webfulcreations.com/envato/webful_marketplace/html/index.html#">My Account</a></li>
                                 <li><a href="http://www.webfulcreations.com/envato/webful_marketplace/html/index.html#">My Orders</a></li>
@@ -895,7 +895,7 @@
 						
 					  </ul>
 					<div class="tabs-panel is-active" id="panel1" role="tabpanel" aria-hidden="false" aria-labelledby="panel1-label">
-                        <div class="small-12 columns">
+                        <div class="small-12 columns" style="margin-left: -3.5%;width: 107%;">
                             <div class="featured-area">
                                 <div class="section-title">
                                     <h2><span>Men</span> Collection</h2>
@@ -1073,7 +1073,7 @@
                     </div><!-- tab panel ends /-->
 
                     <div class="small-12 columns tabs-panel" id="panel2" role="tabpanel" aria-hidden="true" aria-labelledby="panel2-label">
-                        <div class="small-12 columns">
+                        <div class="small-12 columns" style="margin-left: -3.5%;width: 107%;">
                             <div class="featured-area">
                                 <div class="section-title">
                                     <h2><span>Code Warriors</span></h2>
@@ -1101,8 +1101,8 @@
                                     printf('<div class="product-image">');
                                     printf('<div class="sale-tag">Hot</div>');
                                             printf('<a href="%s">',$rows[$i][0]);
-                                                printf('<img src="%s" alt="">',$rows[$i][3]);
-                                                printf('<img src="%s" alt="">',$rows[$i][3]);
+                                                printf('<img style="height:150px;" src="%s" alt="">',$rows[$i][3]);
+                                                printf('<img style="height:180px;" src="%s" alt="">',$rows[$i][3]);
                                     printf('</a>');
                                     printf('
                                             <div class="pro-buttons menu-centered">
@@ -1127,7 +1127,7 @@
                                             </div>
                                             <div class="last-row">
                                                 <div class="pro-rating float-left">');
-													printf(' <input id="%s" type="hidden" class="rating rate" value="%s" data-readonly data-filled="fa fa-star fa-3x" data-empty="fa fa-star-o fa-3x" data-fractions="2"/>',$rows[$i][0],$rows[$i][5]);
+													printf(' <input id="%s" type="hidden" class="rating rate" value="%s" data-readonly data-filled="fa fa-star fa-x" data-empty="fa fa-star-o fa-x" data-fractions="2"/>',$rows[$i][0],$rows[$i][5]);
 		                                        printf('</div>
                                                 <div class="store float-right">
                                                     By: <a href="http://www.webfulcreations.com/envato/webful_marketplace/html/store-front.html">Ashutosh Singh</a>
