@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -47,6 +47,10 @@
     <!-- REVOLUTION LAYERS STYLES -->
     <link rel="stylesheet" type="text/css" href="./assets/layers.css">
 
+	
+	<link href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link href="css/bootstrap-rating.css" rel="stylesheet">
 
 
 </head>
@@ -882,16 +886,15 @@
             </div><!-- big Section title ends.-->
 
             <div class="new-content">
-                <div class="small-12 columns">
-                    <ul class="tabs" role="tablist" data-tabs="647yp0-tabs" id="new-items">
-                        <li class="tabs-title is-active" role="presentation"><a href="http://www.webfulcreations.com/envato/webful_marketplace/html/index.html#panel1" role="tab" aria-selected="true" aria-controls="panel1" id="panel1-label">Products</a></li>
-                        <li class="tabs-title" role="presentation"><a href="http://www.webfulcreations.com/envato/webful_marketplace/html/index.html#panel2" role="tab" aria-controls="panel2" aria-selected="false" id="panel2-label">Services</a></li>
-                    </ul>
-                </div>
+               
 
                 <div class="tabs-content" data-tabs-content="new-items">
-
-                    <div class="tabs-panel is-active" id="panel1" role="tabpanel" aria-hidden="false" aria-labelledby="panel1-label">
+					 <ul>
+						<li><a href="#panel1">Products</a></li>
+						<li><a href="#panel2">Services</a></li>
+						
+					  </ul>
+					<div class="tabs-panel is-active" id="panel1" role="tabpanel" aria-hidden="false" aria-labelledby="panel1-label">
                         <div class="small-12 columns">
                             <div class="featured-area">
                                 <div class="section-title">
@@ -1122,13 +1125,9 @@
                                                 
                                             </div>
                                             <div class="last-row">
-                                                <div class="pro-rating float-left">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star off"></i>
-                                                </div>
+                                                <div class="pro-rating float-left">');
+													printf(' <input id="%s" type="hidden" class="rating rate" value="%s" data-readonly data-filled="fa fa-star fa-3x" data-empty="fa fa-star-o fa-3x" data-fractions="2"/>',$rows[$i][0],$rows[$i][5]);
+		                                        printf('</div>
                                                 <div class="store float-right">
                                                     By: <a href="http://www.webfulcreations.com/envato/webful_marketplace/html/store-front.html">Ashutosh Singh</a>
                                                 </div>
@@ -1388,8 +1387,8 @@
     <!-- Page Preloader -->
     <div class="preloader" style="display: none;"></div>
 
-    <!-- Including Jquery so All js Can run -->
-    <script type="text/javascript" src="./assets/jquery-1.12.3.min.js.download"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
 
     <!-- Including Foundation JS so Foundation function can work. -->
     <script type="text/javascript" src="./assets/foundation.min.js.download"></script>
@@ -1398,6 +1397,13 @@
     <!-- jQuery Timer plugin delete if not using -->
     <script src="./assets/jquery.simple.timer.js.download"></script>
 
-    <script src="./assets/webful.js.download"></script>
+   
+	
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+	<script type="text/javascript" src="js/bootstrap-rating.min.js"></script>
+	<script type="text/javascript" src="js/rating.js"></script>
+
 </body>
 </html>

@@ -1,5 +1,7 @@
 
 $(function () {
+    $( ".tabs-content" ).tabs();
+
     var id = $('.rate').attr('id');
     var tempVal = getCookie("star", id);
     if (tempVal != 0) {

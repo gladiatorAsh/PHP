@@ -24,7 +24,11 @@
         }
        else{
         while ($row = pg_fetch_array($sqlsearch,null, PGSQL_ASSOC)) {
-                $arr[$i]=array($row["url"], $row["title"], $row["subtitle"],$row["img"],$row["description"]); 
+               $avgRating=0;
+                if($row["no_ratings"]!=0){
+                $avgRating=$row["total_ratings"]/$row["no_ratings"];
+                }
+                $arr[$i]=array($row["url"], $row["title"], $row["subtitle"],$row["img"],$row["description"],$avgRating); 
                 $i++;
         }
         
