@@ -25,7 +25,8 @@
        else{
         while ($row = pg_fetch_array($sqlsearch,null, PGSQL_ASSOC)) {
               
-                $arr[$i]=array($row["page_url"], $row["title"], $row["subtitle"],$row["image_url"],$row["description"],$row["avg_rating"]); 
+                //$arr[$i]=array($row["page_url"], $row["title"], $row["subtitle"],$row["image_url"],$row["description"],$row["avg_rating"]); 
+                $arr[$i]=array($row["id"], $row["title"],$row["page_url"],$row["image_url"],$row["description"],$row["total_rating"],$row["num_rating"],$row["visit"],$row["costs"],$row["avg_rating"]);
                 $i++;
         }
         
