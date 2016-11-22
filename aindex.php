@@ -679,7 +679,7 @@
                                 printf('<div class="medium-3 small-12 columns wd100 product">');
                                     printf('<div class="product-image">');
                                     printf('<div class="sale-tag">Hot</div>');
-                                            printf('<a href="%s">',$rows[$i][0]);
+                                            printf('<a href="%s">',$rows[$i][1]);
                                                 printf('<img style="height:150px;" src="%s" alt="">',$rows[$i][3]);
                                                 printf('<img style="height:150px;" src="%s" alt="">',$rows[$i][3]);
                                     printf('</a>');
@@ -697,7 +697,7 @@
                                         <div class="product-title">
 										');
 
-                                           printf('<a href="%s">%s</a>',$rows[$i][0],$rows[$i][1]);
+                                           printf('<a href="%s">%s</a>',$rows[$i][2],$rows[$i][1]);
                                         printf('</div><!-- product title /-->
                                         <div class="product-meta">
                                             <div class="prices">
@@ -706,7 +706,7 @@
                                             </div>
                                             <div class="last-row">
                                                 <div class="pro-rating float-left">');
-													printf(' <input id="%s" type="hidden" class="rating rate" value="%s" data-readonly data-filled="fa fa-star fa-x" data-empty="fa fa-star-o fa-x" data-fractions="2"/>',$rows[$i][0],$rows[$i][5]);
+													printf(' <input id="%s" type="hidden" class="rating rate" value="%s" data-readonly data-filled="fa fa-star fa-x" data-empty="fa fa-star-o fa-x" data-fractions="2"/>',$rows[$i][2],$rows[$i][9]);
 		                                        printf('</div>
                                                 <div class="store float-right">
                                                     By: <a href="http://www.webfulcreations.com/envato/webful_marketplace/html/store-front.html">Ashutosh Singh</a>
