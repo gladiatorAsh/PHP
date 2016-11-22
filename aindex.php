@@ -350,7 +350,7 @@
                         <h2><span>Featured</span> Collection</h2>
                     </div><!-- section title /-->
                     
-                                <div class="content-section owl-carousel" id="owl-example">
+                                <div class="content-section owl-carousel">
 
                                     <?php
                                     
@@ -658,7 +658,7 @@
                                     <h2><span>Code Warriors</span></h2>
                                 </div><!-- section title /-->
 
-                                <div class="content-section owl-carousel" id="owl-example">
+                                <div class="content-section owl-carousel">
 
                                     <?php
                                     function get_data($url) {
@@ -985,7 +985,7 @@
 	<script type="text/javascript" src="js/rating.js"></script>
     <script>
     $(document).ready(function() {
-        $("#owl-example").owlCarousel({
+        $(".owl-carousel").owlCarousel({
             items:3,
             itemsDesktop : [1199,4],
             itemsDesktopSmall : [980,3],
