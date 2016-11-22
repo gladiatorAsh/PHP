@@ -43,3 +43,20 @@ select total_ratings,no_ratings from services ;
 select COALESCE(total_ratings / NULLIF(no_ratings,0), 0) as avg_rating ,* from services order by COALESCE(total_ratings / NULLIF(no_ratings,0), 0) desc;
 
 select COALESCE(total_ratings / NULLIF(no_ratings,0), 0) as avg_rating ,* from services order by COALESCE(total_ratings / NULLIF(no_ratings,0), 0) desc LIMIT 4;
+
+
+
+ALTER TABLE services RENAME COLUMN url TO page_url;
+
+ALTER TABLE services RENAME COLUMN img TO image_url;
+
+ALTER TABLE services RENAME COLUMN total_ratings TO total_rating;
+
+ALTER TABLE services RENAME COLUMN no_ratings TO num_rating;
+
+ALTER TABLE services RENAME COLUMN no_visits TO visit;
+
+ALTER TABLE services ADD COLUMN costs numeric DEFAULT 0;
+
+
+

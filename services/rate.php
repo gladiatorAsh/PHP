@@ -28,7 +28,7 @@ if($_POST['action'] == "rate") {
 	$url=$_POST["id"];
 	
 	
-	$query = "UPDATE services SET total_ratings = total_ratings +$rating, no_ratings=no_ratings+1  where url='$url'";
+	$query = "UPDATE services SET total_rating = total_rating +$rating, num_rating=num_rating+1  where page_url='$url'";
 	
 	
 	pg_query($query)
