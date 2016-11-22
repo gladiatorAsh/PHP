@@ -1091,7 +1091,7 @@
                                     return $data;
                                     }
 
-                                    $url = "http://codewarriors.herokuapp.com/services/TopServices.php";
+                                    $url = "http://codewarriors.herokuapp.com/services/topservices.php";
                                     $result=get_data($url);
                                     $rows=json_decode($result);
 
