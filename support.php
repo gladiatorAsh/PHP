@@ -91,16 +91,7 @@
     <!-- /.container-fluid -->
   </nav>
   <?php
-    
-    if(empty($_COOKIE['history'])){
-        $url = array();
-    }else{
-        $url =  unserialize($_COOKIE['history']);
-    }
-    
-    array_push($url,"$_SERVER[REQUEST_URI]");
-    setcookie('history', serialize($url));
-    
+  include('services/history.php');
     ?>
 
     <section>
